@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 
 // --- ФОН ---
 const bgImage = new Image();
-bgImage.src = "images/komar.jpg";
+bgImage.src = "komar.jpg";
 
 // --- МУЗЫКА ---
 const music = new Audio("gufmusic.mp3");
@@ -205,3 +205,4 @@ if (!gameActive) {
 bgImage.onerror = () => {
     console.error("Failed to load background image.");
 };
+
